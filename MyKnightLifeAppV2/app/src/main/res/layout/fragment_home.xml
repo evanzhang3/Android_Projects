@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/headerDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/colorWhite"
+        android:gravity="left"
+        android:text="TextView"
+        android:textColor="@color/colorGreen"
+        android:textSize="30dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="100"
+                android:layout_marginTop="30dp"
+                android:layout_margin="20dp">
+
+                <TextView
+                    android:id="@+id/MorningActivity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorRed"
+                    android:text="TextView"
+                    android:textSize="30sp"
+                    android:layout_weight="50"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/MorningActivityTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlue"
+                    android:text="TextView"
+                    android:textSize="25sp"
+                    android:layout_weight="50"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                android:layout_margin="20dp">
+
+                <TextView
+                    android:id="@+id/BlockOne"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorRed"
+                    android:text="TextView"
+                    android:textSize="30sp"
+                    android:layout_weight="50"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/BlockOneTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlue"
+                    android:text="TextView"
+                    android:textSize="25sp"
+                    android:layout_weight="50"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                android:layout_margin="20dp">
+
+                <TextView
+                    android:id="@+id/BlockTwo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorRed"
+                    android:text="TextView"
+                    android:textSize="30sp"
+                    android:layout_weight="50"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/BlockTwoTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlue"
+                    android:text="TextView"
+                    android:textSize="25sp"
+                    android:layout_weight="50"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                android:layout_margin="20dp">
+
+                <TextView
+                    android:id="@+id/BlockTwoLab"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorRed"
+                    android:text="TextView"
+                    android:textSize="30sp"
+                    android:layout_weight="50"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/BlockTwoLabTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlue"
+                    android:text="TextView"
+                    android:textSize="25sp"
+                    android:layout_weight="50"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                android:layout_margin="20dp">
+
+                <TextView
+                    android:id="@+id/BlockThree"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorRed"
+                    android:text="TextView"
+                    android:textSize="30sp"
+                    android:layout_weight="50"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/BlockThreeTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlue"
+                    android:text="TextView"
+                    android:textSize="25sp"
+                    android:layout_weight="50"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                android:layout_margin="20dp">
+
+                <TextView
+                    android:id="@+id/LunchBlock"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorRed"
+                    android:text="TextView"
+                    android:textSize="30sp"
+                    android:layout_weight="50"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/LunchBlockTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlue"
+                    android:text="TextView"
+                    android:textSize="25sp"
+                    android:layout_weight="50"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                android:layout_margin="20dp">
+
+                <TextView
+                    android:id="@+id/BlockFour"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorRed"
+                    android:text="TextView"
+                    android:textSize="30sp"
+                    android:layout_weight="50"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/BlockFourTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlue"
+                    android:text="TextView"
+                    android:textSize="25sp"
+                    android:layout_weight="50"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                android:layout_margin="20dp">
+
+                <TextView
+                    android:id="@+id/BlockFive"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorRed"
+                    android:text="TextView"
+                    android:textSize="30sp"
+                    android:layout_weight="50"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/BlockFiveTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlue"
+                    android:text="TextView"
+                    android:textSize="25sp"
+                    android:layout_weight="50"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                android:layout_margin="20dp">
+
+                <TextView
+                    android:id="@+id/BlockSix"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorRed"
+                    android:text="TextView"
+                    android:textSize="30sp"
+                    android:layout_weight="50"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/BlockSixTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlue"
+                    android:text="TextView"
+                    android:textSize="25sp"
+                    android:layout_weight="50"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                android:layout_margin="20dp">
+
+                <TextView
+                    android:id="@+id/BlockSeven"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorRed"
+                    android:text="TextView"
+                    android:textSize="30sp"
+                    android:layout_weight="50"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/BlockSevenTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlue"
+                    android:text="TextView"
+                    android:textSize="25sp"
+                    android:layout_weight="50"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                android:layout_margin="20dp">
+
+                <TextView
+                    android:id="@+id/BlockEight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorRed"
+                    android:text="TextView"
+                    android:textSize="30sp"
+                    android:layout_weight="50"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/BlockEightTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlue"
+                    android:text="TextView"
+                    android:textSize="25sp"
+                    android:layout_weight="50"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
